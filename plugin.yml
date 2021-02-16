@@ -1,0 +1,16 @@
+name: MineraBroadCastUI
+main: HannesTheDev\MineraBroadCastUI\Main
+version: 1.0.0
+api: 3.0.0
+author: HannesTheDev
+
+commands:
+  broadcast:
+    aliases: ["bc"]
+    description: "Sending a broadcast message"
+    permission: "minerabroadcastui.broadcast.cmd"
+
+permissions:
+  minerabroadcastui.broadcast.cmd:
+    description: "/broadcast permission"
+    default: op
